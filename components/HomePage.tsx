@@ -3,6 +3,8 @@ import { useEffect } from "react";
 import { AboutPage } from "./_about/AboutPage";
 import { ExplorerPage } from "./_explorer/ExplorerPage";
 import { HeroSection } from "./_hero/HeroSection";
+import { MenuPage } from "./_menu/MenuPage";
+
 
 export const HomePage = () => {
   useEffect(() => {
@@ -17,6 +19,7 @@ export const HomePage = () => {
       <HeroSection />
       <ExplorerPage />
       <AboutPage />
+      <MenuPage />
       {/* temporary div */}
       <div className="h-[1000px]"></div>
 
