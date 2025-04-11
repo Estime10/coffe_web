@@ -15,7 +15,7 @@ export const MenuItem = ({ title, description, image, price }: MenuItemProps) =>
       <div className="flex flex-col flex-1 gap-2">
         <div className="flex items-baseline justify-between">
           <h3 className="text-xl md:text-3xl font-bold">{title}</h3>
-          <div className="flex-1 border-b border-dashed border-[#000] opacity-50 mx-4"></div>
+          <div className="flex-1 border-b border-dashed border-[#100e0e] opacity-50 mx-4"></div>
           <p className="text-sm md:text-base text-gray-500">{price.toFixed(2)}$</p>
         </div>
         <p className="text-sm md:text-base text-gray-500">{description}</p>

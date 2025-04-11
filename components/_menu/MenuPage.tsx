@@ -73,9 +73,9 @@ export const MenuPage = () => {
           <div className="-mb-4">
             <Separator bg="accent" />
           </div>
-          <p className="text-center text-base md:text-xl max-w-[600px] mx-auto">
+          <p className="text-center text-base md:text-xl max-w-[600px] mx-auto text-gray-500">
             <br />
-            <span className="font-bold md:text-3xl text-2xl mb-4">What's your flavour?</span>
+            <span className="font-bold md:text-3xl text-2xl mb-4 text-[#100e0e]">What's your flavour?</span>
             <br />
             Choose your favorite coffee and enjoy your Coding session.
           </p>

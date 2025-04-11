@@ -40,3 +40,8 @@
     tracking-[.15em] transition-all rounded-md cursor-pointer border-2 border-[#ffffff] hover:border-[#c7a17a] hover:text-[#ffffff];
   }
 }
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  @apply text-[#c7a17a] !text-[2rem];
+}
