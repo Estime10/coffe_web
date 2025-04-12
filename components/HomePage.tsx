@@ -5,7 +5,7 @@ import { ExplorerPage } from "./_explorer/ExplorerPage";
 import { HeroSection } from "./_hero/HeroSection";
 import { MenuPage } from "./_menu/MenuPage";
 import { TestimonialPage } from "./_testimonial/TestimonialPage";
-
+import { OpeningHours } from "./Opening/OpeningHours";
 export const HomePage = () => {
   useEffect(() => {
     const locomotiveScroll = async () => {
@@ -20,6 +20,7 @@ export const HomePage = () => {
       <ExplorerPage />
       <AboutPage />
       <MenuPage />
+      <OpeningHours />
       <TestimonialPage />
       {/* temporary div */}
       <div className="h-[1000px]"></div>
