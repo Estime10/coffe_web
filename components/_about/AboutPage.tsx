@@ -51,7 +51,7 @@ export const AboutPage = () => {
   }, [])
   return (
 
-        <section className="overflow-hidden bg-[#100e0e]">
+        <section id="about" className="overflow-hidden bg-[#100e0e]">
             <div ref={scrollTriggerRef}>
                 <div ref={scrollableSectionRef} className='w-[300vw] h-screen relative flex'>
                     {AboutData.map((item, index) => {

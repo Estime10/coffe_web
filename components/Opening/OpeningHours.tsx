@@ -3,7 +3,7 @@ import { Badge } from "../_hero/Bagde";
 import { Separator } from "../_hero/Separator";
 export const OpeningHours = () => {
   return (
-    <section className="flex bg-[#100e0e] h-[60vh] md:h-[80vh]">
+    <section id="opening-hours" className="flex bg-[#100e0e] h-[60vh] md:h-[80vh]">
       <div className="hidden relative md:flex flex-1 justify-center items-center">
         <div className="w-full h-full absolute z-40 bg-black/60 top-0"></div>
         <Image

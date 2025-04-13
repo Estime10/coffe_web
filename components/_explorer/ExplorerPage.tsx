@@ -1,7 +1,7 @@
 import Image from "next/image";
 export const ExplorerPage = () => {
   return (
-    <section className="py-12 md:py-0 md:h-[90vh] md:w-screen">
+    <section id="explore" className="py-12 md:py-0 md:h-[90vh] md:w-screen">
       <div className="container px-6 md:px-0 mx-auto md:w-full md:h-full flex md:justify-center md:items-center">
         <div className="w-full flex flex-col md:flex-row gap-14 md:gap-20">
           <div className="flex-1 flex flex-col justify-around items-end text-center md:text-left gap-12 md:gap-0 max-w-[400px] mx-auto md:max-w-none md:mx-0">

@@ -1,11 +1,11 @@
 import Link from "next/link"
 
 const Links = [
-  {href: "/", name: "Home"},
-  {href: "/", name: "Explore"},
-  {href: "/", name: "About"},
-  {href: "/", name: "Menu"},
-  {href: "/", name: "Contact"},
+  {href: "#home", name: "Home"},
+  {href: "#explore", name: "Explore"},
+  {href: "#about", name: "About"},
+  {href: "#menu", name: "Menu"},
+  {href: "#contact", name: "Contact"},
 ]
 
 export const NavList = () => {

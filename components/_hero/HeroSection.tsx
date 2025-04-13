@@ -1,5 +1,5 @@
-import { Badge } from "./Bagde"
-import { Separator } from "./Separator"
+import { Badge } from "./Bagde";
+import { Separator } from "./Separator";
 
 
 export const HeroSection = () => {
@@ -41,7 +41,9 @@ export const HeroSection = () => {
           <p className="lead font-light max-w-[350px] md:max-w-[500px] text-[#F5F5F5] text-xl md:text-3xl mb-6">
             Experience the best <span className="text-[#c7a17a] uppercase">coffee</span> in town. Pull off your laptop and <span className="text-[#c7a17a] uppercase">CODE</span>.
           </p>
-          <button className="btn">Our Menu</button>
+          <button className="btn" onClick={() => {
+            window.location.href = "#menu";
+          }}>Our Menu</button>
         </div>
       </div>
     </section>

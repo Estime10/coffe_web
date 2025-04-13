@@ -27,7 +27,7 @@ const TestimonialsData = [
 
 export const TestimonialPage = () => {
   return (
-    <section className="h-[60vh] md:h-[70vh]">
+    <section id="testimonial" className="h-[60vh] md:h-[70vh]">
       <div className="container mx-auto h-full flex items-center">
         <Swiper navigation={true} modules={[Navigation]} className='h-[400px]'>
           {TestimonialsData.map((testimonial, index) => {

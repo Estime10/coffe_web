@@ -66,7 +66,7 @@ const MenuData = [
 
 export const MenuPage = () => {
   return (
-    <section className="pt-12 pb-16 md:pt-16 md:pb-36">
+    <section id="menu" className="pt-12 pb-16 md:pt-16 md:pb-36">
       <div className="container mx-auto">
         <div className="flex flex-col gap-4 mb-12 md:mb-20 items-center justify-center">
           <h2 className="h2 text-center">Our Menu</h2>

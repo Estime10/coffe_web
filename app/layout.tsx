@@ -1,7 +1,10 @@
+import { FooterPage } from "@/components/_footer/FooterPage";
 import { Header } from "@/components/_hearder_and_navigation/Header";
 import type { Metadata } from "next";
 import { Cormorant_Upright, Open_Sans } from "next/font/google";
 import "./globals.css";
+
+
 const cormorantUpright = Cormorant_Upright({
   variable: "--font-cormorant-upright",
   subsets: ["latin"],
@@ -31,6 +34,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <FooterPage />
       </body>
     </html>
   );
